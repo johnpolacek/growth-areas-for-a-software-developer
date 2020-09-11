@@ -27,7 +27,7 @@ const Arrow = (props) => {
         color: "var(--shade2)",
         opacity: 0,
         position: "absolute",
-        fontSize: 40 + Math.random() * 80 + "px",
+        fontSize: 3 + Math.random() * 6 + "vw",
       }}
       ref={tweenRef}
     >
