@@ -1,7 +1,8 @@
 import Head from "next/head"
 
 const twitter = "@johnpolacek"
-const imageUrl = "https://growth-areas-for-a-software-developer.vercel.app/screenshot.png"
+const imageUrl =
+  "https://growth-areas-for-a-software-developer.vercel.app/screenshot.png"
 const imageAlt = "5 Growth Areas for a Software Developer"
 
 const DocHead = (props) => (

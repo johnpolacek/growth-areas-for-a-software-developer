@@ -252,7 +252,7 @@
 
 ## Thanks for reading! 
 
-View project or make suggestions on GitHub
+[View project](https://github.com/johnpolacek/growth-areas-for-a-software-developer) or [make suggestions](https://github.com/johnpolacek/growth-areas-for-a-software-developer/issues) on GitHub.
 
 > "I did then what I knew how to do. Now that I know better, I do better." 
 > > Maya Angelou
