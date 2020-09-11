@@ -5,11 +5,7 @@ import ReadMe from "../README.md"
 
 const IndexPage = () => (
   <>
-    <Head
-      url="/"
-      title="Growth Areas for a Software Developer"
-      description="A list of areas to focus on in and examples to follow in order to grow your career as a software developer."
-    />
+    <Head />
     <Animation />
     <MDXProvider>
       <ReadMe />
