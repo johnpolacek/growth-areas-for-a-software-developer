@@ -35,7 +35,7 @@ ul {
 
 body > div > ul > li {
 	margin: 0;
-	padding: var(--space-4);
+	padding: var(--space-4) 0;
 }
 
 body, body > div > ul > li:nth-child(6) {
@@ -105,6 +105,7 @@ blockquote {
 	margin: 0 var(--space-2);
 	border-radius: 8px;
 	color: #222;
+	margin-bottom: var(--space-3);
 }
 
 blockquote blockquote {
@@ -122,4 +123,13 @@ body > div > ul > li blockquote {
 }
 body > div > ul > li blockquote blockquote {
 	color: #222;
+}
+
+@media only screen and (max-width: 420px) {
+  h1 {
+    font-size: 48px;
+  }
+	blockquote {
+		width: 240px;
+	}
 }
