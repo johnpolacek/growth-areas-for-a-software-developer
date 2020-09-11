@@ -1,0 +1,125 @@
+:root {
+  --shade1: #304DA5;
+  --shade2: #3656B5;
+  --shade3: #3A5CC4;
+  --shade4: #3F63D0;
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 32px;
+  --space-4: 48px;
+  --space-5: 64px;
+  --space-6: 96px;
+}
+
+body {
+	padding: 0 0 var(--space-4);
+	margin: 0;
+	color: white;
+	font-family: avenir next,avenir,Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+	text-align: center;
+	font-size: 24px;
+}
+
+body > div {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding-bottom: var(--space-6);
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+body > div > ul > li {
+	margin: 0;
+	padding: var(--space-4);
+}
+
+body, body > div > ul > li:nth-child(6) {
+	background: var(--shade1);
+}
+
+body > div > ul > li:nth-child(1),body > div > ul > li:nth-child(5) {
+	background: var(--shade2);
+}
+
+body > div > ul > li:nth-child(2), body > div > ul > li:nth-child(4) {
+	background: var(--shade3);
+}
+
+body > div > ul > li:nth-child(3) {
+	background: var(--shade4);
+}
+
+body > div > h2 {
+	padding-top: var(--space-4);
+}
+
+body > div > p {
+	font-size: 18px;
+}
+
+h1, h2 {
+	z-index: 9999;
+}
+
+h1 {
+	width: 100%;
+	padding: var(--space-6) var(--space-4);
+	font-weight: 600;
+	font-size: 72px;
+	line-height: 1.2;
+	max-width: 720px;
+}
+
+h2 {
+	border-bottom: solid 1px rgba(255,255,255,.2);
+	width: 100%;
+	max-width: 360px;
+	padding-bottom: var(--space-1); 
+	margin: var(--space-3) auto var(--space-4);
+}
+
+ul ul li {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: var(--space-4);
+}
+
+p {
+	width: 100%;
+	padding-bottom: var(--space-1);
+}
+
+blockquote {
+	font-weight: bold;
+	font-size: 18px;
+	font-style: italic;
+	background: white;
+	padding: var(--space-2) var(--space-3);
+	width: 300px;
+	margin: 0 var(--space-2);
+	border-radius: 8px;
+	color: #222;
+}
+
+blockquote blockquote {
+	padding: 0;
+	margin: 0;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: normal;
+}
+a {
+	color: var(--shade4);
+}
+body > div > ul > li blockquote {
+	color: var(--shade3);
+}
+body > div > ul > li blockquote blockquote {
+	color: #222;
+}
