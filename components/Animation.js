@@ -1,7 +1,9 @@
 import React from "react"
 import useTweenLite from "./useTweenLite"
-import { Power4 } from "gsap"
-import { Expo } from "gsap"
+import { gsap, Power4, CSSPlugin } from "gsap"
+
+// Force CSSPlugin to not get dropped during build
+gsap.registerPlugin(CSSPlugin)
 
 const Arrow = (props) => {
   const endX = Math.floor(props.i / 5) * 5 - 48 + Math.random() * 2
