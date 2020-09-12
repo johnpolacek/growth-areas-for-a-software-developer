@@ -1,6 +1,6 @@
 {
   "endOfLine": "lf",
-  printWidth: 200,
+  "printWidth": 200,
   "semi": false,
   "singleQuote": false,
   "tabWidth": 2,
