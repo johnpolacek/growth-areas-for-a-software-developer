@@ -74,7 +74,7 @@
 	  > > They’ve already given me design layouts and user flows. No sense in questioning them.
 	
 	  > Better
-	  > > If we change one step in this user flow, it could cut the implementation time in half.
+	  > > If we change one step in this user flow, it could cut the implementation time in half. Let’s discuss.
 	
 	- Manage time and tasks
 
@@ -92,7 +92,7 @@
 		> > Everyone in this room is smarter than me, so I’ll keep quiet and let them figure it out.
 		
 		> Better
-		> > I’m the one who will be doing the work. It is up to me to make sure everyone understands and agrees on the direction we are going to take. 
+		> > I’m the one who will be doing the work. It is up to me to make sure everyone understands and agrees on the direction we take. 
 
 	- Document everything
 
@@ -116,7 +116,7 @@
 		> > I didn’t realize this code change touches so many areas of the application. If I go heads down, I can probably still hit the deadline.
 		
 		> Better
-		> > The scope of impact is larger than originally planned. I’ll let the team know so we can consider our options.
+		> > The scope of impact is larger than originally planned. I’ll let the team know so we can consider options.
 	
 	- Follow up
 
@@ -124,12 +124,12 @@
 		> > Still waiting for a response on that bug escalation. I guess they’ll get back to me if it is important.
 		
 		> Better
-		> > Still waiting for a response on that bug escalation. I better message them directly to find out whats going on.
+		> > Still waiting for a response on that bug escalation. I better message them directly to find out what is going on.
 
 	- Identify process improvements
 
 		> Not so good
-		> > This is the way it has always been done.
+		> > This is just the way it has always been done.
 		
 		> Better
 		> > I wonder what a new hire would think of the way we do things?
@@ -148,7 +148,7 @@
 	    > > This is too complicated too explain to a non-technical person. You’ll just have to trust me.
 	
 	    > Better
-	    > > If I draw this flowchart, it will make the pattern of behavior more clear...
+	    > > If I draw this flowchart, it will make the pattern of behavior more clear.
 
 - ## Writing
 
