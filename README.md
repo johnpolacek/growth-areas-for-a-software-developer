@@ -56,10 +56,10 @@
 	- Anticipate problems
 
 	  > Not so good
-	  > > There are still some unanswered questions here, but I’m sure it will all work itself out.
+	  > > Being surprised to come across problems while working on a feature.
 	  
 	  > Better
-	  > > It is risky to start work when we may get new information that causes us to change course. Let’s make a plan.
+	  > > Recognizing the impact and potential risks of a feature before starting work.
 	
 	- Communicate risks
 
@@ -70,6 +70,7 @@
 	  > > I have to make sure the business fully understands my concerns about a security vulnerability, so we can make an informed decision about the release.
 	
 	- Present alternate solutions
+
 	  > Not so good
 	  > > They’ve already given me design layouts and user flows. No sense in questioning them.
 	
@@ -97,7 +98,7 @@
 	- Document everything
 
 		> Not so good
-		> > Sure hope someone will remember being discussed in this superlong kickoff meeting...
+		> > Sure hope someone will remember what’s being discussed in this superlong kickoff meeting...
 		
 		> Better
 		> > Hi everyone, attached are my notes from the meeting with action items at the bottom.
@@ -129,11 +130,19 @@
 	- Identify process improvements
 
 		> Not so good
-		> > This is just the way it has always been done.
+		> > This part of the process is a little painful. I’ll just go with it because it’s the way we’ve always done things.
 		
 		> Better
-		> > I wonder what a new hire would think of the way we do things?
+		> > This part of the process is a little painful. I’ve tried structuring it differently myself and have seen positive results. Maybe we can make a change.
+		
+	- Be respectful
 
+		> Not so good
+		> > No, that’s wrong.
+		
+		> Better
+		> > I think that approach might not work. Have you considered this?
+		
 	- Accept feedback
 
 		> Not so good
@@ -149,6 +158,14 @@
 	
 	    > Better
 	    > > If I draw this flowchart, it will make the pattern of behavior more clear.
+	    
+    - Open to others’ ideas
+
+	    > Not so good
+	    > > I like it this way. No point in discussing.
+	
+	    > Better
+	    > > This works, but maybe there’s a better way. I wonder what suggestions the team might have.
 
 - ## Writing
 
@@ -218,7 +235,7 @@
 	    > Better
 	    > > Manually repro the issue. Write a test that fails. Fix the test and verify no regression or UI breakage.
 	
-	- Debugging / Troubleshooting
+	- Troubleshoot
 
 	    > Not so good
 	    > > My code is perfect. Must be the computer’s fault. 
@@ -226,7 +243,7 @@
 	    > Better
 	    > > Breakpoint. Check network requests. Console debug. Git bisect. Use Google fu. Remove code. Consider the dumbest thing that could possibly be wrong.
 	
-	- Knowing When to Refactor
+	- Know when to refactor
 
 	    > Not so good
 	    > > Code smell? Never heard of it. *..or..* Refactoring everything that wasn’t written by me
@@ -234,7 +251,7 @@
 	    > Better
 	    > > I have to rewrite half of this, might clean up a few things while I’m here *..or..* Refactoring could break many things and is out of scope. I’ll make some notes for the future.
 	  
-	- Working concurrently
+	- Work concurrently
 
 	    > Not so good
 	    > > Working in isolation, not paying attention to others in the same area of the codebase, merging only at the end, `git push --force`
@@ -242,13 +259,21 @@
 	    > Better
 	    > > Check in with your team, collaborate, keep your branch fresh, minimize merge conflicts by coordinating work.
        
-	- Test, Test, Test
+	- Test, test, test
 	
 	  > Not so good
 	  > > Writing tests slows down software development. 
 	
 	  > Better
 	  > > Having tests speeds up software development because it reduces the need for manual testing and prevents regression.
+	  
+	- Learn new things
+
+	  > Not so good
+	  > > I only work on this. It is what I know. 
+	
+	  > Better
+	  > > I’ve never worked with that technology, but I can learn it quickly!
 
 ## Thanks for reading! 
 
